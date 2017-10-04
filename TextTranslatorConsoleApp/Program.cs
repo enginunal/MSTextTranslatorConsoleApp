@@ -13,8 +13,7 @@ namespace TextTranslatorConsoleApp
             string ApiKey = "6c965416747744d8b13103450329f364";
             string input = "Bugün hava güneşli.";
             string targetLang = "en";
-
-
+            
             Task.Run(async () =>
             {
                 var accessToken = await GetAuthenticationToken(ApiKey);
